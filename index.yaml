@@ -1,0 +1,57 @@
+apiVersion: v1
+entries:
+  podinfo:
+  - annotations:
+      weave.works/profile: demo-profile
+    apiVersion: v1
+    appVersion: 6.0.1
+    created: "2021-10-21T10:38:09.318490057Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 0f1ba4a7a20fc6e3059c6eaacc51b5428400848912e33bed4cf2754120d5bab7
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://foot.github.io/podinfo/podinfo-6.0.1.tgz
+    version: 6.0.1
+  - annotations:
+      weave.works/profile: demo-profile
+    apiVersion: v1
+    appVersion: 6.0.0
+    created: "2021-06-16T12:51:07.137321429Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: aed86105891a9b1db588128878b79425cf6447e69b1012119e82c1d37c68ae67
+    home: https://github.com/stefanprodan/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://stefanprodan.github.io/podinfo/podinfo-6.0.0.tgz
+    version: 6.0.0
+  - annotations:
+      not-a-profile: "because I don't have the correct annotation"
+    apiVersion: v1
+    appVersion: 5.0.0
+    created: "2021-03-22T10:10:24.565752209Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 43cdf797e2b31973542b3fb596086f5e7e13074d9a9693f40208e6387c5a9028
+    home: https://github.com/stefanprodan/podinfo
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: stefanprodan
+    name: podinfo
+    sources:
+    - https://github.com/stefanprodan/podinfo
+    urls:
+    - https://stefanprodan.github.io/podinfo/podinfo-5.0.0.tgz
+    version: 5.0.0
+generated: "2021-10-22T12:43:53.088606365Z"
